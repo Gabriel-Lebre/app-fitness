@@ -16,6 +16,9 @@ export default function Home() {
         <>
           {/* Welcome message with user's name */}
           <h1 className="text-3xl">Welcome, {session.user.name}</h1>
+          <a href="/workout-planner" className="mt-4 text-blue-400 hover:underline">
+            Go to Workout Planner
+          </a>
           {/* Sign out button */}
           <button onClick={() => signOut()} className="mt-4 bg-red-500 px-4 py-2 rounded">
             Sign Out

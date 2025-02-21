@@ -44,6 +44,12 @@ export default function SignInPage() {
         <button type="submit" className="bg-blue-500 px-4 py-2 rounded">
           Sign In
         </button>
+        <p className="mt-3 text-gray-400">
+          Don't have an account?{" "}
+          <a href="/auth/signup" className="text-blue-400 hover:underline">
+            Sign up
+          </a>
+        </p>
       </form>
     </div>
   );
